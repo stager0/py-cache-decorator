@@ -16,5 +16,3 @@ def cache(func: Callable) -> Callable:
             cache_data[data] = result
             return result
     return wrapper
-
-
